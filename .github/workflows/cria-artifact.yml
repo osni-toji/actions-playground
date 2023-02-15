@@ -5,15 +5,15 @@ on:
 
 jobs:
 
-  checkout_code:
+  checkout_e_artefato:
     name: Faz checkout do codigo
     runs-on: ubuntu-latest
       
     steps:
-    - name: Checkout repositório
+    - name: Checkout
       uses: actions/checkout@v3.3.0
       
-    - name: Upload a Build Artifact
+    - name: Artefato
       uses: actions/upload-artifact@v3.1.2
       with:
         name: ${{ vars.NOME }}
