@@ -1,4 +1,4 @@
-name: Workflow de exemplo
+name: Criar artefato
 
 on:
   push:
